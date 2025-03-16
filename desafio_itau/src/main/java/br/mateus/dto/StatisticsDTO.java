@@ -10,6 +10,26 @@ public class StatisticsDTO {
     private double min;
     private double max;
 
+    public long getCount() {
+        return count;
+    }
+
+    public double getSum() {
+        return sum;
+    }
+
+    public double getAvg() {
+        return avg;
+    }
+
+    public double getMin() {
+        return min;
+    }
+
+    public double getMax() {
+        return max;
+    }
+
     public StatisticsDTO(DoubleSummaryStatistics statistics) {
         this.count = statistics.getCount();
         this.sum = statistics.getSum();

@@ -11,7 +11,7 @@ import br.mateus.dto.StatisticsDTO;
 import br.mateus.services.TransactionService;
 
 @RestController
-@RequestMapping("/statics")
+@RequestMapping("/statistics")
 public class StatisticController {
 
     private final TransactionService transactionService;
