@@ -1,6 +1,5 @@
 package br.mateus.dto;
 
-import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 
 import jakarta.validation.constraints.Min;
@@ -10,12 +9,12 @@ public class TransactionDTO {
 
     @NotNull
     @Min(0)
-    private BigDecimal value;
+    private Double value;
 
     @NotNull
     private OffsetDateTime date;
 
-    public BigDecimal getValue() {
+    public Double getValue() {
         return value;
     }
 

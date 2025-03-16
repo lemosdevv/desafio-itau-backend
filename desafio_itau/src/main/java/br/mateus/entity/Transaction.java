@@ -1,19 +1,18 @@
 package br.mateus.entity;
 
-import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 
 public class Transaction {
 
-    private BigDecimal value;
+    private Double value;
     private OffsetDateTime date;
 
-    public Transaction(final BigDecimal value, OffsetDateTime date) {
+    public Transaction(final Double value, OffsetDateTime date) {
         this.value = value;
         this.date = date;
     }
 
-    public BigDecimal getValue() {
+    public Double getValue() {
         return value;
     }
 
