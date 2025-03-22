@@ -8,7 +8,10 @@ API REST desenvolvida como parte do desafio técnico do Itaú, focada no gerenci
 - **Spring Boot 3.4.3**
 - **Maven**
 - **Spring Validation**
+<<<<<<< HEAD
 - **Springdoc OpenAPI (Documentação da API com Swagger UI)**
+=======
+>>>>>>> cb7e1fe3f18c9bb124286fa2f691b48a62611e22
 
 ## 📦 **Pré-requisitos**
 Antes de executar a aplicação, certifique-se de ter instalado:
@@ -60,9 +63,17 @@ mvn spring-boot:run
 - **Endpoint:** `/itau-api`
 - **Descrição:** Remove todas as transações cadastradas.
 
+<<<<<<< HEAD
 ## 📚 Documentação da API
 **A documentação da API está disponível via Swagger UI. Após iniciar a aplicação, acesse:
 Swagger UI: http://localhost:8080/swagger-ui.html**
+=======
+## ✅ **Testes**
+Para executar os testes automatizados, utilize o seguinte comando:
+```bash
+mvn test
+```
+>>>>>>> cb7e1fe3f18c9bb124286fa2f691b48a62611e22
 
 ## 🔒 **Validações Implementadas**
 
@@ -80,4 +91,3 @@ Swagger UI: http://localhost:8080/swagger-ui.html**
 
 ## 📄 **Licença**
 Este projeto está sob a **licença MIT** - consulte o arquivo LICENSE para mais detalhes.
-
